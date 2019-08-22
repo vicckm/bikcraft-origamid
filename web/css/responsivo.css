@@ -1,6 +1,24 @@
 /*Estilo para tablets*/
 @media only screen and (min-width: 788px) and (max-width: 979px) {
-	
+/*Qualidade Home*/
+	.qualidade:after {
+	right: 66px;
+}
+.qualidade_lista li {
+	padding: 0 10px;
+}
+
+/*Footer*/
+.footer_redes ul li a {
+	border: 3px solid #fec63e;
+	display: block;
+	padding: 6px;
+}
+
+.footer_redes ul li a img {
+	width: 26px;
+	height: 26px;
+}
 }
 
 /*Estilo para smartphone*/
@@ -14,16 +32,17 @@
 }
 
 .header img {
-	margin: 0 auto 0 auto;
+	margin: 0 auto 0px auto;
 }
 
 .header_menu {
 	text-align: center;
-	margin-top: 0;
+	margin-top: 10px;
 }
 
+
 .header_menu ul li {
-	margin: 0;
+	margin: 5px;
 }
 
 .header_menu ul li a {
@@ -37,13 +56,51 @@
 	border-color: #fff;
 }
 
+.header_menu ul li a.menu_ativo {
+	border-color: #fff;
+}
+
 /*Introducao*/
+
+.introducao h1 {
+	font-size: 36px;
+}
 
 .introducao {
 	margin-top: 0;
-	padding: 20px;
+	padding-top: 40px;
 	background: url(../img/bg-mobile.jpg) no-repeat center;
 	background-size: cover;
 }
+
+/*Introdução Interna*/
+
+.introducao-interna { 
+	margin-top: 0px;
+}
+
+/*Call*/
+
+.call-to-action {
+	padding-top: 10px;
+}
+
+/*Qualidade Home*/
+	.qualidade:after {
+	display: none;
+}
+/*Sobre*/
+.missao_sobre p {
+	font-size: 14px;
+	line-height: 25px;
+	padding-right: 0px;
+}
+
+.missao_sobre ul li {
+	font-size: 14px;
+	line-height: 20px;
+	padding-right: 0px;
+}
+
 
 } 
